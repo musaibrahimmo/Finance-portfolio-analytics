@@ -40,3 +40,15 @@ Welcome to my portfolio! This repository highlights data-driven solutions for co
         *   Total Active Exposure = SUM(Loans[Remaining_Principal])
         *   Non-Performing Loan (NPL) Rate = DIVIDE(CALCULATE(SUM(Loans[Principal]), Loans[Status] = "Default"), SUM(Loans[Principal]), 0)
     *   Built high-impact executive views displaying monthly default migrations using dynamic charts, filters, and KPI cards.
+
+---
+
+### 🗒️ Project 4: Corporate Expense Allocation & Budget Variance Tracker
+*Tools Used:* Microsoft Excel, Power Query, Advanced Pivot Tables & Formulas
+
+*   *Business Problem:* A corporate finance department manually spends 8 hours every month matching corporate credit card statements to departmental cost centers and calculating budget overruns.
+*   *What I Built:*
+    *   Constructed an automated ETL pipeline using *Power Query* to merge 12 separate monthly transaction CSV sheets, strip duplicate metadata, and clean unformatted text fields automatically.
+    *   Built a dynamic variance summary matrix using multi-dimensional *Pivot Tables* to map actual expenditures directly against allocated departmental budgets.
+    *   Implemented conditional formatting logic using muted corporate color scales to highlight variance alerts where actual spending exceeded forecasts by more than 5%.
+*   *Business Impact:* Re-engineered an operational reporting workflow, reducing monthly data compilation time from 8 hours down to a single-click data refresh.*
