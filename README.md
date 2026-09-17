@@ -40,6 +40,7 @@ Welcome to my portfolio! This repository highlights data-driven solutions for co
 *   *Business Impact:* Migrated on-premise operational logging data to a high-concurrency cloud warehouse, reducing corporate dashboard update rendering times from 4 minutes down to less than 12 seconds.*
 --
 
+
 ### 📊 Project 4: Retail Banking Loan Portfolio Dashboard
 *Tools Used:* Microsoft Power BI, DAX, Star Schema Data Modeling
 *   *Dataset Focus:* 50,000 corporate and retail loan application records tracking interest rates, debt-to-income (DTI) metrics, and repayment delinquencies.
