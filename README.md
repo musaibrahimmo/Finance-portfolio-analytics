@@ -1,10 +1,10 @@
 # 📈 Finance Data Analytics Portfolio
 
-Welcome to my portfolio! This repository highlights data-driven solutions for corporate finance, asset risk management, and predictive modeling using Python, SQL, Power BI, and Excel.
+Welcome to my portfolio! This repository highlights data-driven solutions for corporate finance, asset risk management, and predictive modeling using Python, SQL, Cloud Data Warehousing, Power BI, and Excel.
 
 ---
 
-### 📊 Project 1: Portfolio Risk & Equity Returns Analytics
+### 📊 Project 1: Portfolio Risk & rns Analytics
 *Tools Used:* Python (pandas, yfinance, matplotlib, seaborn)
 *   *File:* [portfolio_analytics.py](./portfolio_analytics.py)
 
@@ -27,9 +27,20 @@ Welcome to my portfolio! This repository highlights data-driven solutions for co
     *   Wrote analytical queries using *Common Table Expressions (CTEs)* and *Window Functions* (PARTITION BY) to flag transactions that exceeded a user's average historical spend size by 300%.
     *   Isolated potential geographic fraud vectors by identifying transaction locations differing from documented account home states.
 
+---
+
+### ❄️ Project 3: Cloud Data Warehousing & ETL Pipeline Automation
+*Tools Used:* Snowflake (or Google BigQuery), Python, SQL, Cloud Storage (AWS S3 / GCS)
+
+*   *Business Problem:* A financial services firm is struggling with slow report loading speeds because their transaction datasets have scaled past 10 million rows, overloading traditional local servers.
+*   *What I Built:*
+    *   Designed and configured a centralized *Cloud Data Warehouse* schema using a dimensional modeling approach optimized for rapid analytic querying.
+    *   Constructed scalable staging layers to ingest bulk historical transaction data directly from cloud storage buckets into data warehouse tables.
+    *   Implemented query optimization structures including cluster keys and materialized views to handle high-volume processing.
+*   *Business Impact:* Migrated on-premise operational logging data to a high-concurrency cloud warehouse, reducing corporate dashboard update rendering times from 4 minutes down to less than 12 seconds.*
 --
 
-### 📊 Project 3: Retail Banking Loan Portfolio Dashboard
+### 📊 Project 4: Retail Banking Loan Portfolio Dashboard
 *Tools Used:* Microsoft Power BI, DAX, Star Schema Data Modeling
 *   *Dataset Focus:* 50,000 corporate and retail loan application records tracking interest rates, debt-to-income (DTI) metrics, and repayment delinquencies.
 
@@ -43,7 +54,7 @@ Welcome to my portfolio! This repository highlights data-driven solutions for co
 
 ---
 
-### 🗒️ Project 4: Corporate Expense Allocation & Budget Variance Tracker
+### 🗒️ Project 5: Corporate Expense Allocation & Budget Variance Tracker
 *Tools Used:* Microsoft Excel, Power Query, Advanced Pivot Tables & Formulas
 
 *   *Business Problem:* A corporate finance department manually spends 8 hours every month matching corporate credit card statements to departmental cost centers and calculating budget overruns.
