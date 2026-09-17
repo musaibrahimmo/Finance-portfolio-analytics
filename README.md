@@ -37,9 +37,7 @@ Welcome to my portfolio! This repository highlights data-driven solutions for co
     *   Designed and configured a centralized *Cloud Data Warehouse* schema using a dimensional modeling approach optimized for rapid analytic querying.
     *   Constructed scalable staging layers to ingest bulk historical transaction data directly from cloud storage buckets into data warehouse tables.
     *   Implemented query optimization structures including cluster keys and materialized views to handle high-volume processing.
-*   *Business Impact:* Migrated on-premise operational logging data to a high-concurrency cloud warehouse, reducing corporate dashboard update rendering times from 4 minutes down to less than 12 seconds.*
---
-
+*   *Business Impact:* Migrated on-premise operational logging data to a high-concurrency cloud warehouse, reducing corporate dashboard update rendering times from 4 minutes down to less than 12 seconds.*--
 
 
 
