@@ -26,3 +26,17 @@ Welcome to my portfolio! This repository highlights data-driven solutions for co
     *   Constructed a relational schema with proper primary and foreign key constraints to track credit usage profiles.
     *   Wrote analytical queries using *Common Table Expressions (CTEs)* and *Window Functions* (PARTITION BY) to flag transactions that exceeded a user's average historical spend size by 300%.
     *   Isolated potential geographic fraud vectors by identifying transaction locations differing from documented account home states.
+
+--
+
+### 📊 Project 3: Retail Banking Loan Portfolio Dashboard
+*Tools Used:* Microsoft Power BI, DAX, Star Schema Data Modeling
+*   *Dataset Focus:* 50,000 corporate and retail loan application records tracking interest rates, debt-to-income (DTI) metrics, and repayment delinquencies.
+
+*   *Business Problem:* Risk executives lack an automated, centralized platform to monitor real-time loan portfolio concentrations, geographic risk exposures, and non-performing loans (NPL).
+*   *What I Built:*
+    *   Designed a robust *Star Schema Data Model* linking a centralized Loan Fact table to distinct Date, Customer, and Geography dimension tables.
+    *   Wrote complex *DAX Measures* to calculate dynamic financial Key Performance Indicators (KPIs):
+        *   Total Active Exposure = SUM(Loans[Remaining_Principal])
+        *   Non-Performing Loan (NPL) Rate = DIVIDE(CALCULATE(SUM(Loans[Principal]), Loans[Status] = "Default"), SUM(Loans[Principal]), 0)
+    *   Built high-impact executive views displaying monthly default migrations using dynamic charts, filters, and KPI cards.
