@@ -42,6 +42,7 @@ Welcome to my portfolio! This repository highlights data-driven solutions for co
 
 
 
+
 ### 📊 Project 4: Retail Banking Loan Portfolio Dashboard
 *Tools Used:* Microsoft Power BI, DAX, Star Schema Data Modeling
 *   *Dataset Focus:* 50,000 corporate and retail loan application records tracking interest rates, debt-to-income (DTI) metrics, and repayment delinquencies.
